@@ -10,6 +10,7 @@ import FeaturedProjects from "./components/FeaturedProjects.jsx";
 import NewProjects from "./components/NewProjects.jsx";
 import Users from "./components/Users.jsx";
 import UserDetails from "./components/UserDetails.jsx";
+import Index from "./hooks/3UseState.jsx";
 function App() {
   return (
    <div>
@@ -29,6 +30,7 @@ function App() {
 
     <Route path="*" element={<NotFound />} />
    </Routes>
+    <Index/>
    </div>
 
   );
