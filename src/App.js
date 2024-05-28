@@ -11,6 +11,7 @@ import NewProjects from "./components/NewProjects.jsx";
 import Users from "./components/Users.jsx";
 import UserDetails from "./components/UserDetails.jsx";
 import Index from "./hooks/3UseState.jsx";
+import Index2 from "./hooks/4UseState.jsx";
 function App() {
   return (
    <div>
@@ -31,6 +32,7 @@ function App() {
     <Route path="*" element={<NotFound />} />
    </Routes>
     <Index/>
+    <Index2/>
    </div>
 
   );
